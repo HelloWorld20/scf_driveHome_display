@@ -1,0 +1,16 @@
+{
+  "name": "homedesplay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "scf native invoke --no-event",
+    "deploy": "scf deploy -f"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.24.0",
+    "mongodb": "^3.5.0"
+  }
+}
